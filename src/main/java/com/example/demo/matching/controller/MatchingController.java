@@ -25,12 +25,10 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-// 커밋 테스트
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/matches")
 public class MatchingController {
-    // 이욥
     private final MatchingServiceImpl matchingServiceImpl;
     private final S3Uploader s3Uploader;
 
