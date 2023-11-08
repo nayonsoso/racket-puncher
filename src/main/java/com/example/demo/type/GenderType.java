@@ -1,5 +1,5 @@
 package com.example.demo.type;
 
 public enum GenderType {
-    MALE, FEMALE;
+    MALE, FEMALE, DONT_WANT_TO_INFORM;
 }
